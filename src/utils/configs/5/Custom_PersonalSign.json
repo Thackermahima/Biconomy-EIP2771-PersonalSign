@@ -1,0 +1,131 @@
+{
+  "contract": {
+    "address": "0x169671fD1069e7196296F118aFf4748Ae6DF4ec3",
+    "abi": [
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [],
+        "name": "admin",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getQuote",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "currentQuote",
+            "type": "string"
+          },
+          {
+            "internalType": "address",
+            "name": "currentOwner",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getTrustedForwarder",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "forwarder",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "forwarder",
+            "type": "address"
+          }
+        ],
+        "name": "isTrustedForwarder",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "quote",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "newQuote",
+            "type": "string"
+          }
+        ],
+        "name": "setQuote",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_trustedForwarder",
+            "type": "address"
+          }
+        ],
+        "name": "setTrustedForwarder",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ]
+  },
+  "apiKey": {
+    "test": "kb2lsEwTN.e945f7f6-6540-4ee8-ae39-873f1c3f685c",
+    "prod": "kb2lsEwTN.e945f7f6-6540-4ee8-ae39-873f1c3f685c"
+  }
+}
